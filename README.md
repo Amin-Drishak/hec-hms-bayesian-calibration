@@ -1,11 +1,9 @@
-# HEC-HMS Bayesian Calibration (Example)
+# HEC-HMS Bayesian Calibration (Demo)
 
-This repository demonstrates the idea of calibrating HEC-HMS parameters with a Bayesian sampler.
+This repo demonstrates a **toy example** of calibrating a hydrologic model using Bayesian/MCMC sampling.
+Steps:
+1. Define a synthetic observed hydrograph
+2. Run a simple MCMC loop to adjust model parameters
+3. Compare simulated vs observed flows
 
-## Workflow
-1. Load synthetic rainfall-runoff data.
-2. Use a Bayesian approach to estimate parameters.
-3. Visualize parameter uncertainty.
-
-## Status
-Mock version for illustration only.
+All data here are illustrative.
