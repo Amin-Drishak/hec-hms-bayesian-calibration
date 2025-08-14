@@ -1,9 +1,27 @@
-# HEC-HMS Bayesian Calibration (Demo)
+# HEC-HMS Bayesian Calibration (Toy Basin)
 
-This repo demonstrates a **toy example** of calibrating a hydrologic model using Bayesian/MCMC sampling.
-Steps:
-1. Define a synthetic observed hydrograph
-2. Run a simple MCMC loop to adjust model parameters
-3. Compare simulated vs observed flows
+**Author:** Muhammad Amin Khan  
+**Purpose:** Demonstration of Bayesian/MCMC calibration for a simplified HEC-HMS rainfall-runoff model.
 
-All data here are illustrative.
+This example:
+1. Sets up a **toy basin** with synthetic rainfall and flow data.
+2. Uses a Bayesian sampler to estimate model parameters.
+3. Produces uncertainty bounds on simulated hydrographs.
+
+---
+
+## Tools & Libraries
+- Python 3.x
+- NumPy, Pandas, Matplotlib
+- PyMC3 (for Bayesian inference)
+- HEC-HMS CLI (conceptual use)
+
+---
+
+## Example Output
+![Hydrograph](hydrograph.png)
+
+---
+
+**Note:** Uses synthetic data for clarity — intended as a scaffold for real calibration workflows.
+
